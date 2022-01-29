@@ -1,1 +1,1 @@
-# RaspberryPi-SenseHat
+# RaspberryPi SenseHat
