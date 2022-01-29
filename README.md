@@ -1,1 +1,3 @@
-# RaspberryPi-SenseHat
+# RaspberryPi SenseHat
+Materiale til SenseHat shield
+
