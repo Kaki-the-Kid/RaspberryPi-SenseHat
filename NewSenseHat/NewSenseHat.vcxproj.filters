@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{10e7f1c0-32b0-401a-84ac-893aa834a3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{9e3f0f7b-e449-406f-aedc-6d4d733e1852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects">
+      <UniqueIdentifier>{7951ede0-d055-4551-829d-557ec122f2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\MeasurementDatabase">
+      <UniqueIdentifier>{b6247c88-2c27-446e-9137-19a73db71be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\SparkelContainer">
+      <UniqueIdentifier>{17293a20-4cc2-4430-b461-bcff38e28dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTIMULib">
+      <UniqueIdentifier>{0871aabe-97d1-49d2-affa-0c06314c5ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTIMULib\etc">
+      <UniqueIdentifier>{8d6bc421-009d-4e97-89e3-807f6825ea47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTIMULib\usr">
+      <UniqueIdentifier>{6838856a-2af5-488d-b041-e5194a2bfaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTIMULib\usr\include">
+      <UniqueIdentifier>{5c0b36ee-63ec-4cfa-8c94-c9ae0ade7892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTIMULib\usr\include\IMUDrivers">
+      <UniqueIdentifier>{eaee8aa5-da90-4721-9c96-40017b4eeae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linux_system_files">
+      <UniqueIdentifier>{06996b3a-0822-4715-b7a8-5efbeab20a2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NewSenseHat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SenseHat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\caractere.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\clock.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\compass.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Documentation\exemple.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\niveau.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\rainbow.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\secouer.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\temperature.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\text.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\MeasurementDatabase\measureToDB.cpp">
+      <Filter>Projects\MeasurementDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\SparkelContainer\IsolatedContainer.cpp">
+      <Filter>Projects\SparkelContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\SparkelContainer\SparkelContainer.cpp">
+      <Filter>Projects\SparkelContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\digitalClock.cpp">
+      <Filter>Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\pixelBlink.cpp">
+      <Filter>Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemples\exemple.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\MeasurementDatabase\SenseHatMeasurementsDB.h">
+      <Filter>Projects\MeasurementDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\SparkelContainer\IsolatedContainer.h">
+      <Filter>Projects\SparkelContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTFusion.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTFusionKalman4.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTFusionRTQF.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMUAccelCal.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMUCalDefs.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMUHal.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMULib.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMULibDefs.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMUMagCal.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTIMUSettings.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\RTMath.h">
+      <Filter>RTIMULib\usr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidityHTS221.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidityHTU21D.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMU.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUBMX055.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUBNO055.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUDefs.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUGD20HM303D.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUGD20HM303DLHC.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUGD20M303DLHC.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMULSM9DS0.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMULSM9DS1.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUMPU9150.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUMPU9250.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUNull.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressure.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureBMP180.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureDefs.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureLPS25H.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureMS5611.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureMS5637.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidity.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidityDefs.h">
+      <Filter>RTIMULib\usr\include\IMUDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="SenseHat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Projects\MeasurementDatabase\measureToDB.sh">
+      <Filter>Projects\MeasurementDatabase</Filter>
+    </None>
+    <None Include="Projects\MeasurementDatabase\Readme.md">
+      <Filter>Projects\MeasurementDatabase</Filter>
+    </None>
+    <None Include="Projects\MeasurementDatabase\SenseHat.sql">
+      <Filter>Projects\MeasurementDatabase</Filter>
+    </None>
+    <None Include="Projects\SparkelContainer\Makefile">
+      <Filter>Projects\SparkelContainer</Filter>
+    </None>
+    <None Include="Projects\SparkelContainer\Readme.md">
+      <Filter>Projects\SparkelContainer</Filter>
+    </None>
+    <None Include="Projects\Readme.md">
+      <Filter>Projects</Filter>
+    </None>
+    <None Include="Projects\runDigitalClock.sh">
+      <Filter>Projects</Filter>
+    </None>
+    <None Include="Documentation\SenseHat.pdf">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="Documentation\Procédure de calibration IMU magnétomètre.pdf">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="Exemples\RTIMULib.ini">
+      <Filter>RTIMULib\etc</Filter>
+    </None>
+    <None Include="HTMLPage.htm">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Documentation\Sense-HAT.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Documentation\Sense-HAT.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

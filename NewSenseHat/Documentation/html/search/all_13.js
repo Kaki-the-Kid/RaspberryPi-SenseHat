@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['temp_1693',['temp',['../class_sense_hat_measurements_d_b.html#a3097a48b4532bc1469a56b108c930179',1,'SenseHatMeasurementsDB::temp()'],['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#aab11ce5b167c7690980fc2e6ee246507',1,'sense_hat.sense_hat.SenseHat.temp()']]],
+  ['temperature_1694',['temperature',['../struct_r_t_i_m_u___d_a_t_a.html#af8b90a27ce8b4e287211353b4914ad8c',1,'RTIMU_DATA::temperature()'],['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#abcc165c5f194337e58595295b23a68fa',1,'sense_hat.sense_hat.SenseHat.temperature()']]],
+  ['temperature_2ecpp_1695',['temperature.cpp',['../temperature_8cpp.html',1,'']]],
+  ['temperaturevalid_1696',['temperatureValid',['../struct_r_t_i_m_u___d_a_t_a.html#ae73c0c1e0581e31905c3c46e520926a3',1,'RTIMU_DATA']]],
+  ['text_2ecpp_1697',['text.cpp',['../text_8cpp.html',1,'']]],
+  ['text_5fcolour_1698',['text_colour',['../namespacetext__scroll.html#a16a00593474861b5b3cdf8f1719d5b8c',1,'text_scroll']]],
+  ['text_5fscroll_1699',['text_scroll',['../namespacetext__scroll.html',1,'']]],
+  ['text_5fscroll_2epy_1700',['text_scroll.py',['../text__scroll_8py.html',1,'']]],
+  ['tfont_1701',['Tfont',['../struct_tfont.html',1,'']]],
+  ['time_1702',['time',['../class_sense_hat_measurements_d_b.html#ad90ffe5e1c07a3042a357f4180862fdb',1,'SenseHatMeasurementsDB']]],
+  ['timestamp_1703',['timestamp',['../struct_r_t_i_m_u___d_a_t_a.html#a670216d5d70a993684f59117cee1b75e',1,'RTIMU_DATA']]],
+  ['to_1704',['TO',['../_l_i_c_e_n_c_e_8txt.html#a755b0ae1d569fc042c8da140569bfe13',1,'LICENCE.txt']]],
+  ['toanglevector_1705',['toAngleVector',['../class_r_t_quaternion.html#a9d28e655f2496c76a7e26f885b42e198',1,'RTQuaternion']]],
+  ['toarray_1706',['toArray',['../class_r_t_vector3.html#acf91bab21c4b854c6d1f3c0f41663a23',1,'RTVector3::toArray()'],['../class_r_t_quaternion.html#ae09acae887934ef2ba065685f6749512',1,'RTQuaternion::toArray()']]],
+  ['toeuler_1707',['toEuler',['../class_r_t_quaternion.html#a57ac6af9b74c3ee9979f6ff47d78db41',1,'RTQuaternion']]],
+  ['tort_1708',['TORT',['../_l_i_c_e_n_c_e_8txt.html#a34be814ae004b26024d9924d1666112b',1,'LICENCE.txt']]],
+  ['transposed_1709',['transposed',['../class_r_t_matrix4x4.html#ac045a7826fcb0f239194ef8954e21cbe',1,'RTMatrix4x4']]]
+];

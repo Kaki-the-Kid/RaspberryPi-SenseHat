@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a7f1fbab-7757-45a7-bead-c6b005af1041}</ProjectGuid>
+    <RootNamespace>NewSenseHat</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Documentation\exemple.cpp" />
+    <ClCompile Include="Exemples\caractere.cpp" />
+    <ClCompile Include="Exemples\clock.cpp" />
+    <ClCompile Include="Exemples\compass.cpp" />
+    <ClCompile Include="Exemples\exemple.cpp" />
+    <ClCompile Include="Exemples\niveau.cpp" />
+    <ClCompile Include="Exemples\rainbow.cpp" />
+    <ClCompile Include="Exemples\secouer.cpp" />
+    <ClCompile Include="Exemples\temperature.cpp" />
+    <ClCompile Include="Exemples\text.cpp" />
+    <ClCompile Include="NewSenseHat.cpp" />
+    <ClCompile Include="Projects\digitalClock.cpp" />
+    <ClCompile Include="Projects\MeasurementDatabase\measureToDB.cpp" />
+    <ClCompile Include="Projects\pixelBlink.cpp" />
+    <ClCompile Include="Projects\SparkelContainer\IsolatedContainer.cpp" />
+    <ClCompile Include="Projects\SparkelContainer\SparkelContainer.cpp" />
+    <ClCompile Include="SenseHat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font.h" />
+    <ClInclude Include="Projects\MeasurementDatabase\SenseHatMeasurementsDB.h" />
+    <ClInclude Include="Projects\SparkelContainer\IsolatedContainer.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidity.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidityDefs.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidityHTS221.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidityHTU21D.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMU.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUBMX055.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUBNO055.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUDefs.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUGD20HM303D.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUGD20HM303DLHC.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUGD20M303DLHC.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMULSM9DS0.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMULSM9DS1.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUMPU9150.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUMPU9250.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTIMUNull.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressure.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureBMP180.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureDefs.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureLPS25H.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureMS5611.h" />
+    <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTPressureMS5637.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTFusion.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTFusionKalman4.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTFusionRTQF.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMUAccelCal.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMUCalDefs.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMUHal.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMULib.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMULibDefs.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMUMagCal.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTIMUSettings.h" />
+    <ClInclude Include="RTIMULib\usr\include\RTMath.h" />
+    <ClInclude Include="SenseHat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentation\Procédure de calibration IMU magnétomètre.pdf" />
+    <None Include="Documentation\SenseHat.pdf" />
+    <None Include="Exemples\RTIMULib.ini" />
+    <None Include="HTMLPage.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Projects\MeasurementDatabase\measureToDB.sh" />
+    <None Include="Projects\MeasurementDatabase\Readme.md" />
+    <None Include="Projects\MeasurementDatabase\SenseHat.sql" />
+    <None Include="Projects\Readme.md" />
+    <None Include="Projects\runDigitalClock.sh" />
+    <None Include="Projects\SparkelContainer\Makefile" />
+    <None Include="Projects\SparkelContainer\Readme.md" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Documentation\Sense-HAT.jpg" />
+    <Image Include="Documentation\Sense-HAT.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['sense_2434',['sense',['../namespacecolour__cycle.html#ab6c32c00d22d0366ba1c918bdc24ad52',1,'colour_cycle.sense()'],['../namespacecompass.html#aa763e0fc67b8831b5dff59a7379ec2cf',1,'compass.sense()'],['../namespaceevdev__joystick.html#a890c91f75bf9ac0beff918fe893f2589',1,'evdev_joystick.sense()'],['../namespacepygame__joystick.html#a5a2f52849d81be141f9b3a005eec13a7',1,'pygame_joystick.sense()'],['../namespacerainbow.html#a4cf924d47352898f986d94871f97e3b9',1,'rainbow.sense()'],['../namespacerotation.html#aefa1740961c26b4608e19b027c02fca8',1,'rotation.sense()'],['../namespacespace__invader.html#a6e301dcddf9d49693b1b0a1d595003b9',1,'space_invader.sense()'],['../namespacetext__scroll.html#a59351e22d28f157a2306348fe9d8b8e2',1,'text_scroll.sense()']]],
+  ['sense_5fhat_5fevdev_5fname_2435',['SENSE_HAT_EVDEV_NAME',['../classsense__hat_1_1stick_1_1_sense_stick.html#a83841bd4bd382df52f86f6fe0749ed93',1,'sense_hat::stick::SenseStick']]],
+  ['sense_5fhat_5ffb_5ffbioget_5fgamma_2436',['SENSE_HAT_FB_FBIOGET_GAMMA',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#ae5938dd7fe9b6f471c4c0ae6f552aa80',1,'sense_hat::sense_hat::SenseHat']]],
+  ['sense_5fhat_5ffb_5ffbioreset_5fgamma_2437',['SENSE_HAT_FB_FBIORESET_GAMMA',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#a1ba1cf9e9fefb8934d9b06e0bf820bdd',1,'sense_hat::sense_hat::SenseHat']]],
+  ['sense_5fhat_5ffb_5ffbioset_5fgamma_2438',['SENSE_HAT_FB_FBIOSET_GAMMA',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#aa10f776def8b3d99fd611440015d2ba4',1,'sense_hat::sense_hat::SenseHat']]],
+  ['sense_5fhat_5ffb_5fgamma_5fdefault_2439',['SENSE_HAT_FB_GAMMA_DEFAULT',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#a9aa50752a9f793cd5e4d89563dfde274',1,'sense_hat::sense_hat::SenseHat']]],
+  ['sense_5fhat_5ffb_5fgamma_5flow_2440',['SENSE_HAT_FB_GAMMA_LOW',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#a591d92feccaedf622d1c8a03bd71b628',1,'sense_hat::sense_hat::SenseHat']]],
+  ['sense_5fhat_5ffb_5fgamma_5fuser_2441',['SENSE_HAT_FB_GAMMA_USER',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#a2651bc51ac84e2424e5d30592be4c3f6',1,'sense_hat::sense_hat::SenseHat']]],
+  ['sense_5fhat_5ffb_5fname_2442',['SENSE_HAT_FB_NAME',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#aa7051472a30313d504377508a6fbf5af',1,'sense_hat::sense_hat::SenseHat']]],
+  ['settings_5fhome_5fpath_2443',['SETTINGS_HOME_PATH',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#a9cf27a197d341d6d45c62f8caee98fd6',1,'sense_hat::sense_hat::SenseHat']]],
+  ['songfd_2444',['songFD',['../_sparkel_container_8cpp.html#a99a4b4c7fe0cb0671e6f85dcde3154cb',1,'SparkelContainer.cpp']]],
+  ['special_2445',['SPECIAL',['../_l_i_c_e_n_c_e_8txt.html#a82d8d6e40f058e873867d5520f734a71',1,'LICENCE.txt']]],
+  ['state_5fhold_2446',['STATE_HOLD',['../classsense__hat_1_1stick_1_1_sense_stick.html#a28e9a614257e41867180c29473456ea5',1,'sense_hat::stick::SenseStick']]],
+  ['state_5fpress_2447',['STATE_PRESS',['../classsense__hat_1_1stick_1_1_sense_stick.html#ad212917fa386d3cfa2b06d843f151704',1,'sense_hat::stick::SenseStick']]],
+  ['state_5frelease_2448',['STATE_RELEASE',['../classsense__hat_1_1stick_1_1_sense_stick.html#afe7074e63f819f7b8c7e13cbefc0cbfa',1,'sense_hat::stick::SenseStick']]],
+  ['str_2449',['str',['../namespacesense__hat_1_1stick.html#a6430764b16fb24ded2922df48b619ef9',1,'sense_hat::stick']]]
+];

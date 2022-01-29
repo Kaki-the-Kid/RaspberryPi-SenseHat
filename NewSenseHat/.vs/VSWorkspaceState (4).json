@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NewSenseHat",
+    "\\NewSenseHat\\Documentation",
+    "\\NewSenseHat\\Projects",
+    "\\NewSenseHat\\Projects\\MeasurementDatabase",
+    "\\NewSenseHat\\RTIMULib",
+    "\\NewSenseHat\\RTIMULib\\usr",
+    "\\NewSenseHat\\RTIMULib\\usr\\include",
+    "\\NewSenseHat\\RTIMULib\\usr\\include\\IMUDrivers"
+  ],
+  "SelectedNode": "\\NewSenseHat\\SenseHat.cpp",
+  "PreviewInSolutionExplorer": false
+}

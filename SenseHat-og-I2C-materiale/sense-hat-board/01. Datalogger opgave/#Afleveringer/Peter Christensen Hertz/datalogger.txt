@@ -1,0 +1,26 @@
+import os
+import sys
+import datetime
+import time
+from sense_hat import SenseHat
+
+sense = SenseHat()
+
+def getCPUtemperature(): #dette er en funtion det henter cpu temperaturen
+    res = os.popen('vcgencmd measure_temp').readline()
+    return(res.replace("temp=","").replace("'C\n",""))
+
+
+while True:
+    cpuTemp=int(float(getCPUtemperature())) #her køres førnævnte funktion 
+    t = sense.get_temperature() #her måles luft temperaturen
+    p = sense.get_pressure() #her måles luft lufttrykket
+    h = sense.get_humidity() #her måles luft luftfugtigheden
+    print("%s, CPU Temp:%.1f C, Sense Temp:%.1f C, P = %.0f, RH = %.0f" % (datetime.datetime.utcnow().strftime("%Y-%m-%d %H: %M: %S"), cpuTemp, t, p, h) )
+    myFile=open('PiTempData.csv', 'a') #her åbnes csv filen 
+    myFile.write("%s, %.0f, %.0f, %.0f, %.0f\n" % (datetime.datetime.utcnow().strftime("%Y-%m-%d %H: %M: %S"), cpuTemp, t, p, h) ) # her skrives de målte værdier ind i .csv filen
+    myFile.close() # så lukkes filen igen
+    time.sleep(1 - time.time() % 1) #her holdes der 1 sekunds pause
+    
+sys.exit() 
+

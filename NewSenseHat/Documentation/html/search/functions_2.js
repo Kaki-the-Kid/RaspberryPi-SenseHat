@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['calculatepose_1893',['calculatePose',['../class_r_t_fusion.html#a1d80e9b33e7e2661881f1c3147cfcad7',1,'RTFusion']]],
+  ['calibrateaccel_1894',['calibrateAccel',['../class_r_t_i_m_u.html#a06dacc14c0ede0f539f359f3556f3815',1,'RTIMU']]],
+  ['calibrateaveragecompass_1895',['calibrateAverageCompass',['../class_r_t_i_m_u.html#ad36d973d11f54d4e4734d973db5a0718',1,'RTIMU']]],
+  ['callchildcontainer_1896',['callChildContainer',['../_sparkel_container_8cpp.html#ab2d61fdd83461f2fdce7d5a15486ed4f',1,'SparkelContainer.cpp']]],
+  ['checkchildcontainers_1897',['checkChildContainers',['../_sparkel_container_8cpp.html#a196fc865f7787b32b64099a07d316599',1,'SparkelContainer.cpp']]],
+  ['clear_1898',['clear',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#ac7d9036ed5594a2e1148a80c02ce1c02',1,'sense_hat.sense_hat.SenseHat.clear()'],['../class_sense_hat.html#ad58ea9e1f7613d612e9f10571e3a1697',1,'SenseHat::clear()'],['../class_sense_hat.html#aa031979a982febd32756a201996e1bc8',1,'SenseHat::clear(int red, int green, int blue)'],['../class_sense_hat.html#ad58ea9e1f7613d612e9f10571e3a1697',1,'SenseHat::clear()'],['../class_sense_hat.html#aa031979a982febd32756a201996e1bc8',1,'SenseHat::clear(int red, int green, int blue)'],['../_sense_hat_8cpp.html#ac8bb3912a3ce86b15842e79d0b421204',1,'clear():&#160;SenseHat.cpp'],['../_sense_hat_8cpp.html#aa6cc6227b6d69032575954734a9e26fa',1,'clear(int red, int green, int blue):&#160;SenseHat.cpp']]],
+  ['close_1899',['close',['../classsense__hat_1_1stick_1_1_sense_stick.html#ad6497494c43649896bd9724a9f0455b9',1,'sense_hat::stick::SenseStick']]],
+  ['closechild_1900',['CloseChild',['../class_isolated_container.html#ad869802e3f6b0fb394aaf48b5c1f44d1',1,'IsolatedContainer']]],
+  ['closeconnection_1901',['CloseConnection',['../class_sense_hat_measurements_d_b.html#ab1d22fa2bfcf1f704176d740b8a93dea',1,'SenseHatMeasurementsDB']]],
+  ['cmdoptionexists_1902',['cmdOptionExists',['../_sparkel_container_8cpp.html#acb8d5bae311381b5ec6877465cc8535c',1,'SparkelContainer.cpp']]],
+  ['colorsuivante_1903',['colorSuivante',['../rainbow_8cpp.html#ab00919545db82437e4c4c733e7b68d2f',1,'rainbow.cpp']]],
+  ['compass_1904',['compass',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#a2d9121fa8811db9c65390bc19894ce65',1,'sense_hat::sense_hat::SenseHat']]],
+  ['compass_5fraw_1905',['compass_raw',['../classsense__hat_1_1sense__hat_1_1_sense_hat.html#ac9b564c0493bd8ad11324c0c480dbaa0',1,'sense_hat::sense_hat::SenseHat']]],
+  ['configapp_1906',['configApp',['../_sparkel_container_8cpp.html#a64bcd4fc2a326fbf6b01b43a05382e13',1,'SparkelContainer.cpp']]],
+  ['conjugate_1907',['conjugate',['../class_r_t_quaternion.html#aca5d8eb1912e5646c0195c24f83f89f0',1,'RTQuaternion']]],
+  ['convertpressuretoheight_1908',['convertPressureToHeight',['../class_r_t_math.html#afc329ba377a8d5e1b62b18cb28c2b225',1,'RTMath']]],
+  ['convertrgb565_1909',['ConvertRGB565',['../class_sense_hat.html#a1f88394e30819f6eb562543653edb0ba',1,'SenseHat::ConvertRGB565(uint8_t red, uint8_t green, uint8_t blue)'],['../class_sense_hat.html#a6c258875460b30bc130ad5c72e87224e',1,'SenseHat::ConvertRGB565(uint8_t color[])'],['../class_sense_hat.html#ac542475c3dd82e866d5440dfe180f3de',1,'SenseHat::ConvertRGB565(std::string color)'],['../class_sense_hat.html#a1f88394e30819f6eb562543653edb0ba',1,'SenseHat::ConvertRGB565(uint8_t red, uint8_t green, uint8_t blue)'],['../class_sense_hat.html#a6c258875460b30bc130ad5c72e87224e',1,'SenseHat::ConvertRGB565(uint8_t color[])'],['../class_sense_hat.html#ac542475c3dd82e866d5440dfe180f3de',1,'SenseHat::ConvertRGB565(std::string color)']]],
+  ['converttovector_1910',['convertToVector',['../class_r_t_math.html#a4a2bbb23a3e9ce52909543fc26b6fc00',1,'RTMath']]],
+  ['correcttemperature_1911',['correctTemperature',['../class_sense_hat.html#afbe577d6c53665033a9adcaa460f82e9',1,'SenseHat::correctTemperature(float senseHatTemp, float cpuTemp)'],['../class_sense_hat.html#afbe577d6c53665033a9adcaa460f82e9',1,'SenseHat::correctTemperature(float senseHatTemp, float cpuTemp)']]],
+  ['createhumidity_1912',['createHumidity',['../class_r_t_humidity.html#a9067e137e4fd427ab6a43fe7fd63a117',1,'RTHumidity']]],
+  ['createimu_1913',['createIMU',['../class_r_t_i_m_u.html#ad1a91c52dfed6b9c1bbdde5e013eba93',1,'RTIMU']]],
+  ['createpressure_1914',['createPressure',['../class_r_t_pressure.html#a64efab460acd825d3d93e43a8a08426e',1,'RTPressure']]],
+  ['crossproduct_1915',['crossProduct',['../class_r_t_vector3.html#a3d2f98f4ff2239d09e5b325de0a40689',1,'RTVector3']]],
+  ['currentusecssinceepoch_1916',['currentUSecsSinceEpoch',['../class_r_t_math.html#ae50c7d5b84dad42f530d132f2c47cd63',1,'RTMath']]]
+];
