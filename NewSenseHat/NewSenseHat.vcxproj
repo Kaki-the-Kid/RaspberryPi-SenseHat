@@ -149,16 +149,16 @@
     <ClCompile Include="Exemples\secouer.cpp" />
     <ClCompile Include="Exemples\temperature.cpp" />
     <ClCompile Include="Exemples\text.cpp" />
-    <ClCompile Include="NewSenseHat.cpp" />
     <ClCompile Include="Projects\digitalClock.cpp" />
     <ClCompile Include="Projects\MeasurementDatabase\measureToDB.cpp" />
     <ClCompile Include="Projects\pixelBlink.cpp" />
     <ClCompile Include="Projects\SparkelContainer\IsolatedContainer.cpp" />
     <ClCompile Include="Projects\SparkelContainer\SparkelContainer.cpp" />
-    <ClCompile Include="SenseHat.cpp" />
+    <ClCompile Include="NewSenseHat.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="font.h" />
+    <ClInclude Include="NewSenseHat.h" />
     <ClInclude Include="Projects\MeasurementDatabase\SenseHatMeasurementsDB.h" />
     <ClInclude Include="Projects\SparkelContainer\IsolatedContainer.h" />
     <ClInclude Include="RTIMULib\usr\include\IMUDrivers\RTHumidity.h" />
@@ -203,6 +203,9 @@
     <None Include="HTMLPage.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="LICENSE" />
+    <None Include="Makefile" />
+    <None Include="Phillppe_README.md" />
     <None Include="Projects\MeasurementDatabase\measureToDB.sh" />
     <None Include="Projects\MeasurementDatabase\Readme.md" />
     <None Include="Projects\MeasurementDatabase\SenseHat.sql" />
